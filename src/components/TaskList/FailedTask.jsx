@@ -2,7 +2,7 @@ import React from 'react'
 
 const FailedTask = ({data}) => {
   return (
-    <div className='flex-shrink-0 w-full md:w-[320px] p-5 sm:p-6 backdrop-blur-md bg-white/5 border border-white/10 rounded-2xl flex flex-col justify-between shadow-xl min-h-[220px] md:min-h-[250px] hover:border-rose-500/30 transition-all duration-300 relative overflow-hidden group'>
+    <div className='w-full p-5 sm:p-6 backdrop-blur-md bg-white/5 border border-white/10 rounded-2xl flex flex-col justify-between shadow-xl min-h-[220px] md:min-h-[250px] hover:border-rose-500/30 transition-all duration-300 relative overflow-hidden group'>
       <div className='absolute top-0 left-0 w-full h-[3px] bg-gradient-to-r from-rose-500 to-red-500' />
       
       <div>
