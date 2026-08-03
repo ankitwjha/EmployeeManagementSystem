@@ -24,18 +24,18 @@ const AcceptTask = ({data, employeeId, updateTaskStatus}) => {
         </p>
       </div>
 
-      <div className='flex gap-2.5 mt-6'>
+      <div className='flex flex-wrap gap-2.5 mt-6'>
         <button 
           onClick={() => updateTaskStatus(employeeId, data.taskTitle, 'completed')}
-          className='flex-1 py-2 bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-400 border border-emerald-500/20 hover:border-emerald-500/40 rounded-lg text-xs font-semibold transition-all duration-200 active:scale-[0.98] cursor-pointer'
+          className='flex-1 min-w-[125px] py-2 bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-400 border border-emerald-500/20 hover:border-emerald-500/40 rounded-lg text-xs font-semibold transition-all duration-200 active:scale-[0.98] cursor-pointer'
         >
-          Complete
+          Mark Completed
         </button>
         <button 
           onClick={() => updateTaskStatus(employeeId, data.taskTitle, 'failed')}
-          className='flex-1 py-2 bg-rose-600/20 hover:bg-rose-600/30 text-rose-400 border border-rose-500/20 hover:border-rose-500/40 rounded-lg text-xs font-semibold transition-all duration-200 active:scale-[0.98] cursor-pointer'
+          className='flex-1 min-w-[125px] py-2 bg-rose-600/20 hover:bg-rose-600/30 text-rose-400 border border-rose-500/20 hover:border-rose-500/40 rounded-lg text-xs font-semibold transition-all duration-200 active:scale-[0.98] cursor-pointer'
         >
-          Failed
+          Mark Failed
         </button>
       </div>
     </div>
