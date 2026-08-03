@@ -104,7 +104,7 @@ const [newTask,setNewTask]=useState({})
                             required
                             className='w-full px-4 py-2.5 bg-[#1f2937]/30 border border-gray-700/60 rounded-xl outline-none text-white placeholder-gray-500 focus:border-violet-500 focus:ring-2 focus:ring-violet-500/20 transition-all duration-200'
                             type="text"
-                            placeholder='employee name'
+                            placeholder='employee name-Nikhil'
                         />
                     </div>
                     <div>
